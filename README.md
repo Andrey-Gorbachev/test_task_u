@@ -14,8 +14,8 @@
 
 # Установка программы
 
-git clone https://github.com/Andrey-Gorbachev/test_task_u.git
+!git clone https://github.com/Andrey-Gorbachev/test_task_u.git test
 
 # Запуск программы
-
-!python code/test_task.py -df "data/" -dd "db/" 
+cd test
+python code/test_task.py -df "data/" -dd "db/" 
